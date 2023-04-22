@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们</title>
+    <style>
+       /* 一些前置格式 */
+* {
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+    clear:both;
+  }
+body{
+   /* width: 100%;
+    margin: 0 auto;*/
+    width: 100%;
+    min-width: 1200px;
+}
+
+/*头部*/
+.header{
+    border-bottom: 1px solid #eaeaea;
+    height: 90px;
+}
+/*导航*/
+.nav{
+    float: left;
+    height: 32px;
+}
+.nav li{
+    float: left;
+    margin-left: 30px;
+    margin-top: 32px;
+    
+}
+.nav li a{
+    float: left;
+    margin: 0 60px;
+    padding: 3px 3px;
+    font-size: 17px;
+}
+.nav li .choose{
+    border-bottom: 3px solid #00c250;
+    color: #00c250;
+}
+.nav li .nchoose{
+    color: black;
+}
+.nav li .nchoose:hover{
+    color: #00c250;
+}
+/* 中间 */
+.mess {
+            width : 70%;
+            height: 1000px;
+            margin: 0 auto;
+            text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .time{
+        text-align: center;
+        color: darkgrey;
+        line-height: 40px;
+    }
+    .par{
+        text-indent: 2em;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+ /*底部*/
+.footer{
+    height: 350px;
+   background-color: #404343;
+}
+.footer .left{
+    float: left;
+    margin-left: 250px;
+}
+.footer .left .left01{
+    float: left;
+    margin-right: 90px;
+}
+.footer .left .left01 dl{
+    margin-top: 78px;
+    margin-bottom: 36px;
+    color: #ffffff;
+}
+.footer .left .left01 dd{
+    margin-bottom: 25px;
+}
+.footer .left .left01 a{
+    color: #9d9d9d;
+}
+.footer .left .left01 a:hover{
+    color: #00c250;
+}
+.footer .right .ph{
+    float: right;
+    margin-top: 80px;
+    padding-left:100px ;
+    margin-right: 100px;
+}
+.footer .right .ph img{
+    width: 150px;
+    height: 150px;
+}
+
+    </style>
+</head>
+<body>
+     <!-- 头部header: 负责头部区域的样式-->
+     <div class="header">
+        <div class="nav">
+            <ul>
+                <li><a href="./index.html" class="nchoose">首页</a></li>
+                <li><a href="./产品说明.html" class="nchoose">产品说明</a></li>
+                <li><a href="./开发动态.html" class="nchoose">开发动态</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 中间section：正文部分 -->
+    <div class="mess" >
+        <h1 class="title">联系我们</h1>
+        <p class="time">2023年4月21日</p>
+        <hr>
+        <img src="./photos/微信图片_20230418230736.jpg" alt="" title="快来扫码加我们好友吧" width: 150px>
+
+    </div>
+     <!--底部footer：底部样式-->
+     <div class="footer">
+        <div class="left">
+            <div class="left01">
+           <dl>关于我们</dl>
+            <dt>
+                <dd><a href="#">我们的团队</a></dd>
+                <dd><a href="./产品初衷.html">产品初衷</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+            </dt>
+        </div>
+            <div class="left01">
+                <dt>
+                    <dl>技术支持</dl>
+                    <dd><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML">开发文档</a></dd>
+                    <dd><a href="https://code.visualstudio.com/">开发工具</a></dd>
+                </dt>
+            </div>
+    </div>
+        <div class="right">
+            <div class="ph">
+            <img src="./photos/微信图片_20230418230736.jpg" alt="">
+            </div>
+        </div>
+     </div>
+</body>
+</html>
