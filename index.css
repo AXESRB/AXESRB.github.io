@@ -98,6 +98,7 @@ body{
     margin: 0 auto;
     height: 600px;
     text-align: center;
+   
 }
 .content02 h2{
     margin-top: 100px;
@@ -118,12 +119,13 @@ body{
 .content02 li{
     float: left;
     margin-top: 50px;
-    margin-right: 225px;
+    margin-right: 105px;/*225*/
     height: 300px;
-    width: 250px;
+    width: 330px;/*250*/
     border-radius: 5%;
     border:2px solid #eee;box-shadow: 0 0 5px rgba(0,0,0,.1); 
-
+   /* background: rgba(253, 253, 253, 0.2);
+    backdrop-filter: saturate(180%) blur(20px);*/
 }
 .content02 li:nth-child(3)
 {
@@ -165,11 +167,15 @@ body{
 .content03 li{
     float: left;
     margin-top: 50px;
-    margin-right: 225px;
+    margin-right: 105px;/*225*/
     height: 300px;
-    width: 250px;
+    width: 330px;/*250*/
     border-radius: 5%;
     border:2px solid #eee;box-shadow: 0 0 5px rgba(0,0,0,.1); 
+/*先看看*/
+/*background: rgba(253, 253, 253, 0.2);
+backdrop-filter: saturate(180%) blur(20px);*/
+
 
 }
 .content03 li:nth-child(3)
@@ -184,7 +190,8 @@ body{
 }
 .content03 li .div1{
     font-size: 20px;
-    font-weight: 700;
+    font-weight:700;
+    
 }
 .content03 li .div2{
     margin-top: 25px;
