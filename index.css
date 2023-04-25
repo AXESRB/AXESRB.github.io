@@ -62,7 +62,7 @@ body{
 /*主体第一部分*/
 .content01{
     height: 670px;
-    background-image: url("./photos/微信图片_20230424224257.jpg") ;
+    background-image: url("./photos/photo1.jpg") ;
     background-size:100% 100%;
 }
 .content01 .box{
